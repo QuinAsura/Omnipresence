@@ -6,16 +6,19 @@ using RGBD camera with (Nite 2.0) (Open Ni 2.2) and onboard phone
 IMU.
 
 
-![Track 1](https://raw.githubusercontent.com/quinasura/LOCK/master/Images/base.jpg)
+![Track 1](https://raw.githubusercontent.com/quinasura/Omnipresence/master/Images/base.jpg)
 
 # Feature Video
 [![DEMO Video](http://img.youtube.com/vi/bha4GeMLiIQ/0.jpg)](http://www.youtube.com/watch?v=bha4GeMLiIQ)
 
 
-# Introduction
-
-* The Problem Statement assumes a static camera mounted with the complete view of the arena.
-* The obstacles are assumed to be of a paticular predefined color.
-* Uses A* for Path Planning with Erosion/Dilation to provide the bot with sufficient cleareance from obstacles.
-* Controls written specifically for differential steering systems.
+# Composition
+* Pyton server running on Raspberry Pi 2/Intel Galileo accepts the 
+socket UDP stream from the RGBD sensor and IMU from the phone and 
+maps the user movement to the onboard camera by controlling the 
+stepper.
+* Full body and hand tracking is performed using features extracted 
+from NITE 2.0 middleware and sent as a UDP stream to python server.
+* Custom Android App for Screen Splitting in Google Cardboard 
+session.
 
