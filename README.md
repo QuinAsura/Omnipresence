@@ -8,12 +8,6 @@ IMU.
 # Feature Video
 [![DEMO Video](http://img.youtube.com/vi/bha4GeMLiIQ/0.jpg)](http://www.youtube.com/watch?v=bha4GeMLiIQ)
 
-# Base Platform
-![Track 1](https://raw.githubusercontent.com/quinasura/Omnipresence/master/Images/base.jpg)
-
-# Modular Stages
-![Track 1](https://raw.githubusercontent.com/quinasura/Omnipresence/master/Images/modular.jpg)
-
 # Composition
 * Pyton server running on Raspberry Pi 2/Intel Galileo accepts the 
 socket UDP stream from the RGBD sensor and IMU from the phone and 
@@ -24,3 +18,12 @@ from NITE 2.0 middleware and sent as a UDP stream to python server.
 * Custom Android App for Screen Splitting in Google Cardboard 
 session.
 
+# Base Platform
+![Track 1](https://raw.githubusercontent.com/quinasura/Omnipresence/master/Images/base.jpg)
+
+# Modular Stages
+![Track 1](https://raw.githubusercontent.com/quinasura/Omnipresence/master/Images/modular.jpg)
+
+# Build Instructions
+Body and hand tracking compilation was done using Visual Studio 
+and requires NITE 2.0 and OpenNI2 libraries.
