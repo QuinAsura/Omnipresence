@@ -5,12 +5,14 @@ full telepresence VR immersion with Natural interaction control
 using RGBD camera with (Nite 2.0) (Open Ni 2.2) and onboard phone
 IMU.
 
-
-![Track 1](https://raw.githubusercontent.com/quinasura/Omnipresence/master/Images/base.jpg)
-
 # Feature Video
 [![DEMO Video](http://img.youtube.com/vi/bha4GeMLiIQ/0.jpg)](http://www.youtube.com/watch?v=bha4GeMLiIQ)
 
+# Base Platform
+![Track 1](https://raw.githubusercontent.com/quinasura/Omnipresence/master/Images/base.jpg)
+
+# Modular Stages
+![Track 1](https://raw.githubusercontent.com/quinasura/Omnipresence/master/Images/modular.jpg)
 
 # Composition
 * Pyton server running on Raspberry Pi 2/Intel Galileo accepts the 
